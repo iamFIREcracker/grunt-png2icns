@@ -1,21 +1,21 @@
 {
-  "name": "@hail2u/grunt-png2ico",
+  "name": "@iamFIREcracker/grunt-png2icns",
   "description": "Generate ICO file from multiple PNG files with ImageMagick.",
   "version": "0.1.2",
-  "author": "Kyo Nagashima <hail2u@gmail.com> (https://kyonagashima.com/)",
+  "author": "Matteo Landi <matteo@matteolandi.net> (https://www.matteolandi.net/)",
   "bugs": {
-    "url": "https://github.com/hail2u/grunt-png2ico/issues"
+    "url": "https://github.com/iamFIREcracker/grunt-png2icns/issues"
   },
-  "homepage": "https://github.com/hail2u/grunt-png2ico",
+  "homepage": "https://github.com/iamFIREcracker/grunt-png2icns",
   "keywords": [
-    "favicon",
     "gruntplugin",
-    "icon"
+    "icon",
+    "icns"
   ],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/hail2u/grunt-png2ico.git"
+    "url": "https://github.com/iamFIREcracker/grunt-png2icns.git"
   },
   "dependencies": {
     "which": "1.2.1"
