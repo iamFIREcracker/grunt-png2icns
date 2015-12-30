@@ -16,12 +16,12 @@ module.exports = function (grunt) {
     var which = require('which').sync;
 
     var options = this.options({
-      cmd: 'convert'
+      cmd: 'png2icns'
     });
     var args = [];
     this.files.forEach(function (file) {
-      args = args.concat(file.src);
-      args.push(file.dest);
+      args = args.concat(file.dest);
+      args.push(file.src);
       var child = spawn(which(options.cmd), args, {
         stdio: 'inherit'
       });
